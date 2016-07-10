@@ -1,9 +1,11 @@
 public class calculate {
-	public static void main(String[] args) {
+	public static void main(String[] arg) {
 	
 		System.out.println("Calculate...");
-
-
+		int first = Integer.valueOf(arg[0]);
+		int second = Integer.valueOf(arg[1]);
+		int summ = ((first * second)/(first + second)) * 2;
+		System.out.println("Summ "+ summ);
 
 
 	}
